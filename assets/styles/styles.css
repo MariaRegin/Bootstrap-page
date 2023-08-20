@@ -1,0 +1,41 @@
+.menu {
+  background-color: rgb(38, 44, 44);
+  margin-bottom: 1rem;
+}
+
+.header {
+  font-weight: lighter;
+  background-color: rgb(234, 233, 233);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 1.5rem;
+  max-width: 80%;
+}
+
+.content {
+  font-weight: bolder;
+}
+
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  max-width: 80%;
+}
+
+.cards {
+  text-align: center;
+}
+
+.card-name {
+  font-weight: 600;
+}
+
+.footer {
+  background-color: rgb(38, 44, 44);
+  text-align: center;
+  padding: 2rem;
+  margin-top: 1rem;
+}
